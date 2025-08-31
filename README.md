@@ -131,6 +131,8 @@ fetchIP();
 </body>
 </html>
 ```
+
+```bash
 const express = require("express");
 const os = require("os");
 const path = require("path");
@@ -187,8 +189,6 @@ function getPrivateIP() {
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running at http://0.0.0.0:${PORT}`);
 });
-```bash
-
 ```
 Paste the code
 

@@ -201,13 +201,6 @@ sudo npm install -g pm2
 ```bash
 pm2 start index.js
 ```
-```bash
-sudo npm install -g pm2
-```
-```bash
-pm2 start index.js
-```
-
 
 ```bash
 pm2 save

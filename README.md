@@ -184,6 +184,9 @@ function getPrivateIP() {
   }
   return "IP not found";
 }
+app.get("/health", (req, res) => {
+  res.status(200).json({ status: "UP", timestamp: new Date() });
+});
 
 // Start server
 app.listen(PORT, "0.0.0.0", () => {
